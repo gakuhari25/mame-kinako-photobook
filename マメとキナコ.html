@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<HTML lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>マメとキナコの写真集</title>
+        <meta name="descripton" content="コザクラインコとオカメインコの日常">
+    </head>
+<style>
+body{
+    margin:0;
+    padding:20px;
+    font-family:"Yu gothic", sans-serif;
+}
+
+.wrappaer{
+    max-width:500px;
+    margin:0 auto;
+}
+
+h1 {
+    text-align:center;
+    margin:40px 0 20px;
+    color:#333;
+}
+
+.big-box{
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+
+.grid {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    margin-top: 6%;
+    margin-bottom: 50px;
+}
+
+.item img{
+    width:100%;
+    height:500px;
+    object-fit:cover;
+    border-radius:8px;
+}
+
+.big-box img{
+    max-width:600px;
+} </style>
+    <body>
+        <div class="wrapper">
+            <div class="item big-box">
+                <img src="C:\Users\yfe41\OneDrive\デスクトップ\マメとキナコの写真集ホームページ\260913051532761.jpg" alt="マメとキナコ">
+                <p>マメとキナコ</p>
+            </div>
+        <h1>マメの写真集</h1>
+        <div class="grid">
+            <div class="item">
+                <img src="C:\Users\yfe41\OneDrive\デスクトップ\マメとキナコの写真集ホームページ\PXL_20260926_195831724.jpg" alt="マメ">
+                <a href="mame.html">コザクラインコのマメ</a>
+            </div>
+        </div>
+        <h1>キナコの写真集</h1>
+        <div class="grid">
+            <div class="item">
+                <img src="C:\Users\yfe41\OneDrive\デスクトップ\マメとキナコの写真集ホームページ\PXL_20260926_195944183.jpg" alt="キナコ">
+                <a href="kinako.html">オカメインコのキナコ</a>
+            </div>
+        </div>
+        </div>
+    </body>
+</HTML>
