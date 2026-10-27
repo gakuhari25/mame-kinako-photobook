@@ -5,10 +5,55 @@
     <title>キナコの写真集</title>
 </head>
 <body>
+    <style>
+body{
+    margin:0;
+    padding:20px;
+    font-family:"Yu gothic", sans-serif;
+}
+
+.wrappaer{
+    max-width:500px;
+    margin:0 auto;
+}
+
+p {
+    text-align:center;
+    margin:40px 0 20px;
+    color:black;
+}
+
+.grid {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    margin-top: 6%;
+    margin-bottom: 50px;
+}
+
+.item img{
+    width:100%;
+    height:500px;
+    object-fit:cover;
+    border-radius:8px;
+}
+ </style>
     <h1>キナコの写真集</h1>
-
-    <img src="PXL_20260930_205654925.MACRO_FOCUS.jpg" alt="キナコのどや顔">
-
-    <a href="マメとキナコ.html">トップページへ戻る</a>
+    <div class="wrapper">
+            <div class="grid">
+                <div class="item">
+                    <img src="PXL_20260930_205654925.MACRO_FOCUS.jpg" alt="キナコのどや顔">
+                    <p>キナコのどや顔</p>
+                </div>
+                <div class="item">
+                    <img src="PXL_20261006_005807693.MACRO_FOCUS.MP.jpg" alt="キナコのカメラ目線">
+                    <p>キナコのカメラ目線</p>
+                </div> 
+                <div class="item">
+                    <img src="PXL_20260926_195343875.jpg" alt="キナコ、マメにぃのマネをする">
+                    <p>キナコ、マメにぃのマネをする</p>
+                </div>             
+            </div>
+            <a href="index.html">トップページへ戻る</a>
 </body>
 </html>
